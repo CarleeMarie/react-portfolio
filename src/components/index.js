@@ -1,4 +1,4 @@
-import Nav from './nav';
-import Home from './home';
+import Nav from './Nav';
+import Home from './Home';
 
 export { Nav, Home };
