@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(35deg, teal 50%, black 90%);
+  background: linear-gradient(35deg, rgb(245, 0, 143) 50%, black 90%);
   color: white;
   padding: 0 20px;
 }
@@ -25,6 +25,6 @@ nav button {
 
 nav button:hover {
   cursor: pointer;
-  color: yellow;
-  border-bottom: 4px solid yellow;
+  color: rgb(136, 222, 214);
+  border-bottom: 4px solid rgb(136, 222, 214);
 }
