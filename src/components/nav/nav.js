@@ -1,13 +1,13 @@
 import './nav.css';
 
-const Nav = () =>
+const Nav = ({setPage}) =>
   <nav>
       <h1>Carlee Miller</h1>
       <div>
-        <button>About Me</button>
-        <button>Portfolio</button>
-        <button>Contact</button>
-        <button>Resume</button>
+        <button onClick={()=>setPage('about')}>About Me</button>
+        <button onClick={()=>setPage('portfolio')}>Portfolio</button>
+        <button onClick={()=>setPage('contact')}>Contact</button>
+        <button onClick={()=>setPage('resume')}>Resume</button>
       </div>
   </nav>
 
