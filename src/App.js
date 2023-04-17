@@ -9,11 +9,11 @@ const App = () => {
   <div className="App">
       <Nav setPage = {setPage} />
       {
-        page == 'about' ?
+        page === 'about' ?
           <Home /> :
-        page == 'portfolio' ?
+        page === 'portfolio' ?
           <Portfolio /> :
-        page == 'contact' ?
+        page === 'contact' ?
           <Contact /> :
           <Resume />
       }
